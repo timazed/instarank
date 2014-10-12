@@ -7,13 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		224C2D7519E9D44E00107777 /* IRInstagramClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 224C2D7419E9D44E00107777 /* IRInstagramClient.m */; };
+		224C2D7C19E9E1FF00107777 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224C2D7B19E9E1FF00107777 /* Parse.framework */; };
+		224C2D7F19E9E33F00107777 /* IRPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 224C2D7E19E9E33F00107777 /* IRPost.m */; };
+		224C2D8719E9F06200107777 /* IRInstaPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 224C2D8619E9F06200107777 /* IRInstaPost.m */; };
+		224C2D8A19E9F23500107777 /* Billabong.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 224C2D8919E9F23500107777 /* Billabong.ttf */; };
+		224C2D8D19E9F31A00107777 /* UINavigationBar+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 224C2D8C19E9F31A00107777 /* UINavigationBar+Extensions.m */; };
+		224C2D9119E9F38F00107777 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 224C2D9019E9F38F00107777 /* UIColor+HexColor.m */; };
+		224C2D9419E9F4D000107777 /* UIImage+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 224C2D9319E9F4D000107777 /* UIImage+Extensions.m */; };
+		224C2D9719E9F8D800107777 /* notliked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 224C2D9619E9F8D800107777 /* notliked@2x.png */; };
+		224C2D9919E9F96E00107777 /* liked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 224C2D9819E9F96E00107777 /* liked@2x.png */; };
+		224C2D9D19E9FCE300107777 /* IRInstaPostView.m in Sources */ = {isa = PBXBuildFile; fileRef = 224C2D9C19E9FCE300107777 /* IRInstaPostView.m */; };
+		224C2DA219EA339B00107777 /* flame@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 224C2DA119EA339B00107777 /* flame@2x.png */; };
 		2277FAD419E9CD070077AC94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2277FAD319E9CD070077AC94 /* main.m */; };
 		2277FAD719E9CD070077AC94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2277FAD619E9CD070077AC94 /* AppDelegate.m */; };
-		2277FADA19E9CD070077AC94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2277FAD919E9CD070077AC94 /* ViewController.m */; };
+		2277FADA19E9CD070077AC94 /* IRMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2277FAD919E9CD070077AC94 /* IRMainViewController.m */; };
 		2277FADD19E9CD070077AC94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2277FADB19E9CD070077AC94 /* Main.storyboard */; };
 		2277FADF19E9CD070077AC94 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2277FADE19E9CD070077AC94 /* Images.xcassets */; };
 		2277FAE219E9CD070077AC94 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2277FAE019E9CD070077AC94 /* LaunchScreen.xib */; };
 		2277FAEE19E9CD080077AC94 /* InstaRankTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2277FAED19E9CD080077AC94 /* InstaRankTests.m */; };
+		853EEEEF8ACD423E8F6171E8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81803BEBD08F48F79D2BC5EE /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +40,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		224C2D7319E9D44E00107777 /* IRInstagramClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRInstagramClient.h; sourceTree = "<group>"; };
+		224C2D7419E9D44E00107777 /* IRInstagramClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRInstagramClient.m; sourceTree = "<group>"; };
+		224C2D7B19E9E1FF00107777 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		224C2D7D19E9E33F00107777 /* IRPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRPost.h; sourceTree = "<group>"; };
+		224C2D7E19E9E33F00107777 /* IRPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRPost.m; sourceTree = "<group>"; };
+		224C2D8019E9E48800107777 /* InstaRank-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InstaRank-Prefix.pch"; sourceTree = "<group>"; };
+		224C2D8119E9E4AB00107777 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		224C2D8519E9F06200107777 /* IRInstaPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRInstaPost.h; sourceTree = "<group>"; };
+		224C2D8619E9F06200107777 /* IRInstaPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRInstaPost.m; sourceTree = "<group>"; };
+		224C2D8919E9F23500107777 /* Billabong.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Billabong.ttf; sourceTree = "<group>"; };
+		224C2D8B19E9F31A00107777 /* UINavigationBar+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Extensions.h"; sourceTree = "<group>"; };
+		224C2D8C19E9F31A00107777 /* UINavigationBar+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Extensions.m"; sourceTree = "<group>"; };
+		224C2D8F19E9F38F00107777 /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		224C2D9019E9F38F00107777 /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
+		224C2D9219E9F4D000107777 /* UIImage+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extensions.h"; sourceTree = "<group>"; };
+		224C2D9319E9F4D000107777 /* UIImage+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extensions.m"; sourceTree = "<group>"; };
+		224C2D9619E9F8D800107777 /* notliked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notliked@2x.png"; sourceTree = "<group>"; };
+		224C2D9819E9F96E00107777 /* liked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "liked@2x.png"; sourceTree = "<group>"; };
+		224C2D9B19E9FCE300107777 /* IRInstaPostView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRInstaPostView.h; sourceTree = "<group>"; };
+		224C2D9C19E9FCE300107777 /* IRInstaPostView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRInstaPostView.m; sourceTree = "<group>"; };
+		224C2DA119EA339B00107777 /* flame@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flame@2x.png"; sourceTree = "<group>"; };
 		2277FACE19E9CD070077AC94 /* InstaRank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaRank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2277FAD219E9CD070077AC94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2277FAD319E9CD070077AC94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2277FAD519E9CD070077AC94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2277FAD619E9CD070077AC94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2277FAD819E9CD070077AC94 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2277FAD919E9CD070077AC94 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2277FAD819E9CD070077AC94 /* IRMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRMainViewController.h; sourceTree = "<group>"; };
+		2277FAD919E9CD070077AC94 /* IRMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRMainViewController.m; sourceTree = "<group>"; };
 		2277FADC19E9CD070077AC94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2277FADE19E9CD070077AC94 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2277FAE119E9CD070077AC94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		2277FAE719E9CD080077AC94 /* InstaRankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaRankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2277FAEC19E9CD080077AC94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2277FAED19E9CD080077AC94 /* InstaRankTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaRankTests.m; sourceTree = "<group>"; };
+		35ABBDB3CBA0453B9F17C22E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		81803BEBD08F48F79D2BC5EE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +83,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				224C2D7C19E9E1FF00107777 /* Parse.framework in Frameworks */,
+				853EEEEF8ACD423E8F6171E8 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +98,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		224C2D7619E9D82100107777 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				224C2D7D19E9E33F00107777 /* IRPost.h */,
+				224C2D7E19E9E33F00107777 /* IRPost.m */,
+				224C2D8519E9F06200107777 /* IRInstaPost.h */,
+				224C2D8619E9F06200107777 /* IRInstaPost.m */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		224C2D7A19E9E1FF00107777 /* thirdparty */ = {
+			isa = PBXGroup;
+			children = (
+				224C2D7B19E9E1FF00107777 /* Parse.framework */,
+			);
+			path = thirdparty;
+			sourceTree = "<group>";
+		};
+		224C2D8819E9F23500107777 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				224C2D8919E9F23500107777 /* Billabong.ttf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		224C2D8E19E9F35600107777 /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				224C2D9219E9F4D000107777 /* UIImage+Extensions.h */,
+				224C2D9319E9F4D000107777 /* UIImage+Extensions.m */,
+				224C2D8F19E9F38F00107777 /* UIColor+HexColor.h */,
+				224C2D9019E9F38F00107777 /* UIColor+HexColor.m */,
+				224C2D8B19E9F31A00107777 /* UINavigationBar+Extensions.h */,
+				224C2D8C19E9F31A00107777 /* UINavigationBar+Extensions.m */,
+			);
+			name = categories;
+			sourceTree = "<group>";
+		};
+		224C2D9519E9F8D800107777 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				224C2DA119EA339B00107777 /* flame@2x.png */,
+				224C2D9819E9F96E00107777 /* liked@2x.png */,
+				224C2D9619E9F8D800107777 /* notliked@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		224C2D9A19E9FCCE00107777 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				224C2D9B19E9FCE300107777 /* IRInstaPostView.h */,
+				224C2D9C19E9FCE300107777 /* IRInstaPostView.m */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
 		2277FAC519E9CD070077AC94 = {
 			isa = PBXGroup;
 			children = (
 				2277FAD019E9CD070077AC94 /* InstaRank */,
 				2277FAEA19E9CD080077AC94 /* InstaRankTests */,
 				2277FACF19E9CD070077AC94 /* Products */,
+				35ABBDB3CBA0453B9F17C22E /* Pods.xcconfig */,
+				D9B0BA431EDD43318A862296 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,14 +180,23 @@
 		2277FAD019E9CD070077AC94 /* InstaRank */ = {
 			isa = PBXGroup;
 			children = (
+				224C2D9A19E9FCCE00107777 /* views */,
+				224C2D9519E9F8D800107777 /* images */,
+				224C2D8E19E9F35600107777 /* categories */,
+				224C2D8819E9F23500107777 /* font */,
+				224C2D7A19E9E1FF00107777 /* thirdparty */,
+				224C2D7319E9D44E00107777 /* IRInstagramClient.h */,
+				224C2D7419E9D44E00107777 /* IRInstagramClient.m */,
+				224C2D7619E9D82100107777 /* models */,
 				2277FAD519E9CD070077AC94 /* AppDelegate.h */,
 				2277FAD619E9CD070077AC94 /* AppDelegate.m */,
-				2277FAD819E9CD070077AC94 /* ViewController.h */,
-				2277FAD919E9CD070077AC94 /* ViewController.m */,
+				2277FAD819E9CD070077AC94 /* IRMainViewController.h */,
+				2277FAD919E9CD070077AC94 /* IRMainViewController.m */,
 				2277FADB19E9CD070077AC94 /* Main.storyboard */,
 				2277FADE19E9CD070077AC94 /* Images.xcassets */,
 				2277FAE019E9CD070077AC94 /* LaunchScreen.xib */,
 				2277FAD119E9CD070077AC94 /* Supporting Files */,
+				224C2D8119E9E4AB00107777 /* Constants.h */,
 			);
 			path = InstaRank;
 			sourceTree = "<group>";
@@ -98,6 +206,7 @@
 			children = (
 				2277FAD219E9CD070077AC94 /* Info.plist */,
 				2277FAD319E9CD070077AC94 /* main.m */,
+				224C2D8019E9E48800107777 /* InstaRank-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -119,6 +228,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D9B0BA431EDD43318A862296 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81803BEBD08F48F79D2BC5EE /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +243,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2277FAF119E9CD080077AC94 /* Build configuration list for PBXNativeTarget "InstaRank" */;
 			buildPhases = (
+				E388DCE50D284E06A0D9B927 /* Check Pods Manifest.lock */,
 				2277FACA19E9CD070077AC94 /* Sources */,
 				2277FACB19E9CD070077AC94 /* Frameworks */,
 				2277FACC19E9CD070077AC94 /* Resources */,
+				63B6AC762B564670A522B206 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +321,10 @@
 				2277FADD19E9CD070077AC94 /* Main.storyboard in Resources */,
 				2277FAE219E9CD070077AC94 /* LaunchScreen.xib in Resources */,
 				2277FADF19E9CD070077AC94 /* Images.xcassets in Resources */,
+				224C2D8A19E9F23500107777 /* Billabong.ttf in Resources */,
+				224C2D9919E9F96E00107777 /* liked@2x.png in Resources */,
+				224C2DA219EA339B00107777 /* flame@2x.png in Resources */,
+				224C2D9719E9F8D800107777 /* notliked@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,13 +337,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		63B6AC762B564670A522B206 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E388DCE50D284E06A0D9B927 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2277FACA19E9CD070077AC94 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2277FADA19E9CD070077AC94 /* ViewController.m in Sources */,
+				2277FADA19E9CD070077AC94 /* IRMainViewController.m in Sources */,
+				224C2D7519E9D44E00107777 /* IRInstagramClient.m in Sources */,
+				224C2D9D19E9FCE300107777 /* IRInstaPostView.m in Sources */,
+				224C2D9419E9F4D000107777 /* UIImage+Extensions.m in Sources */,
+				224C2D8719E9F06200107777 /* IRInstaPost.m in Sources */,
 				2277FAD719E9CD070077AC94 /* AppDelegate.m in Sources */,
+				224C2D9119E9F38F00107777 /* UIColor+HexColor.m in Sources */,
+				224C2D8D19E9F31A00107777 /* UINavigationBar+Extensions.m in Sources */,
+				224C2D7F19E9E33F00107777 /* IRPost.m in Sources */,
 				2277FAD419E9CD070077AC94 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,20 +504,62 @@
 		};
 		2277FAF219E9CD080077AC94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35ABBDB3CBA0453B9F17C22E /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/InstaRank/thirdparty",
+				);
+				GCC_PREFIX_HEADER = "InstaRank/InstaRank-Prefix.pch";
 				INFOPLIST_FILE = InstaRank/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					MobileCoreServices,
+					"-framework",
+					Security,
+					"-framework",
+					SystemConfiguration,
+					"-framework",
+					Parse,
+					"-force_load",
+					"$(BUILT_PRODUCTS_DIR)/libPods.a",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		2277FAF319E9CD080077AC94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35ABBDB3CBA0453B9F17C22E /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/InstaRank/thirdparty",
+				);
+				GCC_PREFIX_HEADER = "InstaRank/InstaRank-Prefix.pch";
 				INFOPLIST_FILE = InstaRank/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"-lc++",
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					MobileCoreServices,
+					"-framework",
+					Security,
+					"-framework",
+					SystemConfiguration,
+					"-framework",
+					Parse,
+					"$(BUILT_PRODUCTS_DIR)/libPods.a",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -412,6 +617,7 @@
 				2277FAF319E9CD080077AC94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2277FAF419E9CD080077AC94 /* Build configuration list for PBXNativeTarget "InstaRankTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +626,7 @@
 				2277FAF619E9CD080077AC94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

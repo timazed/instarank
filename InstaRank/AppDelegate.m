@@ -14,9 +14,20 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [IRPost registerSubclass];
+    
+    [Parse setApplicationId:kParseAppId
+                  clientKey:kParseClientId];
+    
+    PFACL *defaultACL = [PFACL ACL];
+    [PFACL setDefaultACL:defaultACL withAccessForCurrentUser:YES];
+    
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+
+    
     return YES;
 }
 
